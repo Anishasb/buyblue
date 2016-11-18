@@ -1,0 +1,10 @@
+@mixin border-radius($radius){
+	-webkit-border:$radius;
+	-moz-border-radius:$radius;
+	border-radius:$radius;
+}
+
+@mixin rotate ($deg){
+	-webkit-transform: rotate($deg); 
+    -moz-transform: rotate($deg); 
+}
